@@ -11,7 +11,7 @@
 
 // config: ////////////////////////////////////////////////////////////
 
-#define UART_BAUD 15200
+#define UART_BAUD 115200
 #define packTimeout 5 // ms (if nothing more on UART, then send packet)
 #define bufferSize 8192
 
