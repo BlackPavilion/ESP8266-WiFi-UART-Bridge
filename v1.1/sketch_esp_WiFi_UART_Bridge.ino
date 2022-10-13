@@ -11,12 +11,12 @@
 
 // config: ////////////////////////////////////////////////////////////
 
-#define UART_BAUD 9600
+#define UART_BAUD 15200
 #define packTimeout 5 // ms (if nothing more on UART, then send packet)
 #define bufferSize 8192
 
-//#define MODE_AP // phone connects directly to ESP
-#define MODE_STA // ESP connects to WiFi router
+#define MODE_AP // phone connects directly to ESP
+//#define MODE_STA // ESP connects to WiFi router
 
 #define PROTOCOL_TCP
 //#define PROTOCOL_UDP
