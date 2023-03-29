@@ -1,4 +1,4 @@
-// ESP8266 WiFi <-> UART Bridge
+// ESP32 WiFi <-> UART Bridge
 // by RoboRemo
 // www.roboremo.com
 
@@ -6,7 +6,7 @@
 // or any other situations where system failure may affect
 // user or environmental safety.
 
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
 
 
 // config: ////////////////////////////////////////////////////////////
